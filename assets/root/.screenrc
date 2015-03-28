@@ -1,0 +1,11 @@
+
+startup_message off
+setenv RUNNING_UNDER_SCREEN 1
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "%{.bw}%-w%{.rw}%n %t%{-}%+w %=%{..g} %H %{..y} %Y-%m-%d %c "
+
+screen -t root
+screen -t build
+stuff "cd /tmp/build ; sudo -H -s -u build^M"
