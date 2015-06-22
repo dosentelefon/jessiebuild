@@ -1,15 +1,15 @@
 
 # Jessie
-deb http://cdn.debian.net/debian jessie main contrib non-free
-deb-src http://cdn.debian.net/debian jessie main contrib non-free
+deb http://ftp.de.debian.org/debian jessie main contrib non-free
+deb-src http://ftp.de.debian.org/debian jessie main contrib non-free
 
 deb http://security.debian.org/ jessie/updates main contrib non-free
 deb-src http://security.debian.org/ jessie/updates main contrib non-free
 
 # Sid sources
-deb-src http://cdn.debian.net/debian sid main contrib non-free
+deb-src http://ftp.de.debian.org/debian sid main contrib non-free
 
 # Jessie Backports
-deb http://ftp.debian.org/debian/ jessie-backports main
-deb-src http://ftp.debian.org/debian/ jessie-backports main
+deb http://ftp.de.debian.org/debian/ jessie-backports main
+deb-src http://ftp.de.debian.org/debian/ jessie-backports main
 
